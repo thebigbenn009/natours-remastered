@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  }
+}
